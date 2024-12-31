@@ -5,8 +5,8 @@ function App() {
     <menu>
       <div id="game-container">
         <ol id="players">
-        <Player name="Player 1" symbol="X" />
-        <Player name="Player 2" symbol="O" />
+        <Player IntialName="Player 1" symbol="X" />
+        <Player IntialName="Player 2" symbol="O" />
         </ol>
       </div>
       Game Board
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App
+
