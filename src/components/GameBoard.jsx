@@ -28,7 +28,7 @@ export default function GameBoard({ onSelectAquare, turns }){
                     <ol>
                         {row.map((playerSymbol, colIndex) => (
                             <li key={colIndex}>
-                                <button onClick={() => onSelectAquare(rowIndex, colIndex)}>{playerSymbol}</button>
+                                <button onClick={() => onSelectAquare(rowIndex, colIndex)} disabled={playerSymbol !== null}>{playerSymbol}</button>
                             </li>
                         ))}
                     </ol>
